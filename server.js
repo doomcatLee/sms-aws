@@ -7,10 +7,5 @@ app.get('/', function(req, res) {
   res.sendfile('./public/index.html');
 });
 
-app.post('/', function(req, res) {
-  res.send({
-    "Output": "Hello World!"
-  });
-});
 
 app.listen(port);
